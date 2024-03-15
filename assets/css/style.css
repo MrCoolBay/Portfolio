@@ -418,4 +418,8 @@ footer .text span a:hover {
     font-size: 50px;
     color: #4070f4;
   }
+  .skills-details .boxes .perc {
+    font-size: 45px;
+    color: #4070f4;
+  }
 }
