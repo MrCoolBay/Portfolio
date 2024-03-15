@@ -7,24 +7,18 @@
     <title>
         Accueil | /FL>
     </title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="shortcut icon" href="assets/img/7.png" type="image/x-icon">
     <!-- Fontawesome CDN -->
-    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome" href="/css/app-wa-462d1fe84b879d730fe2180b0e0354e0.css?vsn=d">
-
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
-
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css">
-
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
-
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
-
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 </head>
 
 <body>
@@ -37,7 +31,7 @@
         <?php require("menu.php") ?>
     </nav>
 
-    <!-- Home Section Start -->
+    <!-- Home -->
     <section class="home" id="home">
         <div class="home-content">
             <div class="text">
@@ -54,7 +48,7 @@
         </div>
     </section>
 
-    <!-- A propos Section Start -->
+    <!-- A propos -->
     <section class="about" id="about">
         <div class="content">
             <div class="title"><span>À propos</span></div>
@@ -68,7 +62,7 @@
                         Depuis que je suis tout petit, j'ai toujours été passionné par l'informatique. J'ai commencé à configurer des petits serveurs Minecraft dès le collège, et c'est là que j'ai découvert le développement web. Aujourd'hui, je suis en première année de Bachelor Informatique à l'ESGI, et je compte bien faire de ma passion mon métier.
                     </p>
                     <p>
-                        Si vous voulez en savoir plus sur mon parcours, vous pouvez consulter mon CV ici ⤵️
+                        Si vous voulez en savoir plus sur mon parcours, vous pouvez consulter mon CV ici <i class="fa-duotone fa-arrow-turn-down"></i>
                     </p>
                     <div class="button">
                         <form action="assets/cv/CVFabien.pdf" download>
@@ -80,7 +74,7 @@
         </div>
     </section>
 
-    <!-- Mes compétences Section Start -->
+    <!-- Mes compétences -->
 
     <section class="skills" id="skills">
         <div class="content">
@@ -88,7 +82,7 @@
             <div class="skills-details">
                 <div class="text">
                     <div class="topic">En formation à l'Ecole Supérieur de Génie Informatique</div>
-                    <p>Actuellement en formation, je développe mes compétences et les mets à jour chaque fois que je sens avoir progressé, au cours de mes études j'étudie le HTML5, le CSS, le JS, le PhP, le C ou encore l'administration Linux et Windows.</p>
+                    <p>Actuellement en formation, je développe mes compétences et les mets à jour chaque fois que je sens avoir progressé, au cours de mes études j'étudie le HTML5, le CSS, le JS, le PHP, le C, ou encore l'administration Linux et Windows.</p>
                     <div class="experience">
                         <div class="num">5</div>
                         <div class="exp">
@@ -99,66 +93,101 @@
                 </div>
                 <div class="boxes">
                     <div class="box">
-                        <div class="topic">HTML</div>
-                        <div class="per">85%</div>
+                        <div class="topic"><i class="fa-brands fa-html5"></i> HTML</div>
+                        <div class="allpe">
+                            <div class="per">85</div>
+                            <div class="perc">
+                                <i class="fa-regular fa-percent"></i>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="box">
-                        <div class="topic">CSS</div>
-                        <div class="per">70%</div>
+                        <div class="topic"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+                        <div class="allpe">
+                            <div class="per">70</div>
+                            <div class="perc">
+                                <i class="fa-regular fa-percent"></i>
+                            </div>
+                        </div>
                     </div>
                     <div class="box">
-                        <div class="topic">JavScript</div>
-                        <div class="per">10%</div>
+                        <div class="topic"><i class="fa-brands fa-js"></i> JavaScript</div>
+                        <div class="allpe">
+                            <div class="per">10</div>
+                            <div class="perc">
+                                <i class="fa-regular fa-percent"></i>
+                            </div>
+                        </div>
                     </div>
                     <div class="box">
-                        <div class="topic">PHP</div>
-                        <div class="per">40%</div>
+                        <div class="topic"><i class="fa-brands fa-php"></i> PHP</div>
+                        <div class="allpe">
+                            <div class="per">40</div>
+                            <div class="perc">
+                                <i class="fa-regular fa-percent"></i>
+                            </div>
+                        </div>
                     </div>
                     <div class="box">
-                        <div class="topic">Linux</div>
-                        <div class="per">75%</div>
+                        <div class="topic"><i class="fa-brands fa-linux"></i> Linux</div>
+                        <div class="allpe">
+                            <div class="per">65</div>
+                            <div class="perc">
+                                <i class="fa-regular fa-percent"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="topic"><i class="fa-brands fa-windows"></i> Windows</div>
+                        <div class="allpe">
+                            <div class="per">75</div>
+                            <div class="perc">
+                                <i class="fa-regular fa-percent"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Mes projets Section Start -->
+    <!-- Mes projets -->
     <section class="services" id="services">
         <div class="content">
             <div class="title"><span>Mes projets</span></div>
             <div class="boxes">
                 <div class="box">
                     <div class="icon">
-                        <i class="fa-solid fa-code"></i>
+                        <i class="fa-solid fa-code fa-fade"></i>
                     </div>
                     <div class="topic">Développement Web</div>
-                    <p>Je réalise des projets dans le cadre de mes études, tels qu'un gestionnaire de base de données de livres où l'on peut ajouter, modifier et supprimer des livres selon nos préférences.</p>
+                    <p>Je réalise des projets dans le cadre de mes études, tels qu’un gestionnaire de base de données de livres, où l’on peut ajouter, modifier et supprimer des livres selon nos préférences.</p>
                 </div>
                 <div class="box">
                     <div class="icon">
-                        <i class="fa-regular fa-paintbrush-pencil"></i>
+                        <i class="fa-regular fa-paintbrush-pencil fa-fade"></i>
                     </div>
                     <div class="topic">Création de logo</div>
-                    <p>Je propose également des services de création de logos débutants. Si vous recherchez un logo simple pour votre entreprise, votre marque ou votre projet personnel, n'hésitez pas à me contacter.</p>
+                    <p>Je propose également des services de création de logos pour débutants. Si vous recherchez un logo simple pour votre entreprise, votre marque ou votre projet personnel, n’hésitez pas à me contacter.</p>
                 </div>
                 <div class="box">
                     <div class="icon">
-                        <i class="fa-regular fa-server"></i>
+                        <i class="fa-regular fa-server fa-fade"></i>
                     </div>
                     <div class="topic">Administration Réseau</div>
-                    <p>Je travaille actuellement sur un projet de mise en place d'un réseau. Ce projet vise à créer un environnement de réseau sécurisé et fonctionnel, adapté aux besoins de l'entreprise ou de l'institution.</p>
+                    <p>Je travaille actuellement sur la mise en place d’un réseau visant à créer un environnement sécurisé et fonctionnel, adapté aux besoins de l’entreprise ou de l’institution.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Me section Start -->
+    <!-- Contactez Moi -->
     <section class="contact" id="contact">
         <div class="content">
             <div class="title"><span>Contactez-moi</span></div>
             <div class="text">
-                <div class="topic">Besoin de me contacter ?</div>
+                <div class="topic">Besoin de me contacter <i class="fa-solid fa-interrobang"></i></div>
                 <p>Si vous êtes à la recherche d'un stagiaire ou d'un alternant motivé et passionné par l'informatique, n'hésitez pas à me contacter. Je serais ravi de discuter de la possibilité de collaborer avec vous et de contribuer au succès de votre entreprise.
                 </p>
                 <p>
@@ -178,7 +207,7 @@
         </div>
     </section>
 
-    <!-- Footer Section Start -->
+    <!-- Footer -->
     <footer>
         <div class="text">
             <span>Crée par <a href="#">/FabienLubin></a> avec le <i class="fa-regular fa-heart-pulse fa-beat"></i></span>
@@ -186,7 +215,21 @@
 
     </footer>
 
+    <!-- Compteur JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.per').counterUp({
+                time: 1200
+            });
+        });
+    </script>
     <script src="assets/js/script.js"></script>
+
+
 </body>
 
 </html>

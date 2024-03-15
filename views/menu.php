@@ -1,6 +1,6 @@
 <div class="navbar">
     <div class="logo">
-        <a href="#"> /FabienLubin></a>
+        <a href="#"> <i class="fa-solid fa-slash-forward"></i>FabienLubin<i class="fa-solid fa-angle-right"></i></a>
     </div>
     <ul class="menu">
         <li><a href="#home">Accueil</a></li>

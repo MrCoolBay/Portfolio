@@ -213,6 +213,10 @@ section .button button:hover {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.skills-details .boxes-sec {
+  transform: translateY(-50%);
+  position: absolute;
+}
 .skills-details .box {
   width: calc(100% / 2 - 20px);
   margin: 20px 0;
@@ -221,11 +225,18 @@ section .button button:hover {
   font-size: 20px;
   color: #4070f4;
 }
-.skills-details .boxes .per {
+.per {
   font-size: 60px;
   color: #4070f4;
 }
-
+.allpe {
+  display: flex;
+}
+.skills-details .boxes .perc {
+  font-size: 55px;
+  color: #4070f4;
+  margin-left: 10px;
+}
 /* My Services CSS */
 .services .boxes {
   display: flex;
