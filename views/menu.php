@@ -15,9 +15,10 @@
     <div class="media-icons">
         <a href="https://www.linkedin.com/in/fabien-lubin-695344291/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
         <a href="https://instagram.com/fablbn_" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/MrCoolBay" target="_blank"><i class="fab fa-github"></i></a>
     </div>
 </div>
 <div class="menu-btn">
     <i class="fas fa-bars"></i>
 </div>
-<script src="portfolio/assets/js/script.js"></script>
+<script src="assets/js/script.js"></script>

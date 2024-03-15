@@ -7,10 +7,22 @@
     <title>
         Accueil | /FL>
     </title>
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <link rel="stylesheet" href="/assets/css/menu.css">
-    <link rel="shortcut icon" href="/assets/img/7.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="shortcut icon" href="assets/img/7.png" type="image/x-icon">
     <!-- Fontawesome CDN -->
+    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome" href="/css/app-wa-462d1fe84b879d730fe2180b0e0354e0.css?vsn=d">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
@@ -48,7 +60,7 @@
             <div class="title"><span>À propos</span></div>
             <div class="about-details">
                 <div class="left">
-                    <img src="/assets/img/me2.png" alt="hello" />
+                    <img src="assets/img/me2.png" alt="hello" />
                 </div>
                 <div class="right">
                     <div class="topic">L'informatique est ma passion</div>
@@ -59,7 +71,7 @@
                         Si vous voulez en savoir plus sur mon parcours, vous pouvez consulter mon CV ici ⤵️
                     </p>
                     <div class="button">
-                        <form action="/assets/cv/CVFabien.pdf" download>
+                        <form action="assets/cv/CVFabien.pdf" download>
                             <button>Télécharger mon CV</button>
                         </form>
                     </div>
@@ -118,21 +130,21 @@
             <div class="boxes">
                 <div class="box">
                     <div class="icon">
-                        <i class="fas fa-desktop"></i>
+                        <i class="fa-solid fa-code"></i>
                     </div>
                     <div class="topic">Développement Web</div>
                     <p>Je réalise des projets dans le cadre de mes études, tels qu'un gestionnaire de base de données de livres où l'on peut ajouter, modifier et supprimer des livres selon nos préférences.</p>
                 </div>
                 <div class="box">
                     <div class="icon">
-                        <i class="fas fa-spray-can"></i>
+                        <i class="fa-regular fa-paintbrush-pencil"></i>
                     </div>
                     <div class="topic">Création de logo</div>
                     <p>Je propose également des services de création de logos débutants. Si vous recherchez un logo simple pour votre entreprise, votre marque ou votre projet personnel, n'hésitez pas à me contacter.</p>
                 </div>
                 <div class="box">
                     <div class="icon">
-                        <i class="fas fa-network-wired"></i>
+                        <i class="fa-regular fa-server"></i>
                     </div>
                     <div class="topic">Administration Réseau</div>
                     <p>Je travaille actuellement sur un projet de mise en place d'un réseau. Ce projet vise à créer un environnement de réseau sécurisé et fonctionnel, adapté aux besoins de l'entreprise ou de l'institution.</p>
@@ -160,6 +172,7 @@
                 <div class="media-icons">
                     <a href="https://www.linkedin.com/in/fabien-lubin-695344291/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                     <a href="https://instagram.com/fablbn_" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/MrCoolBay" target="_blank"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </div>
@@ -168,12 +181,12 @@
     <!-- Footer Section Start -->
     <footer>
         <div class="text">
-            <span>Crée par <a href="#">/FabienLubin></a> avec le ❤</span>
+            <span>Crée par <a href="#">/FabienLubin></a> avec le <i class="fa-regular fa-heart-pulse fa-beat"></i></span>
         </div>
 
     </footer>
 
-    <script src="/assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
