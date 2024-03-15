@@ -1,0 +1,205 @@
+/* navbar styling */
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 998;
+  transition: all 0.3s ease;
+  font-family: "Ubuntu", sans-serif;
+}
+nav.sticky {
+  background: #4070f4;
+  padding: 13px 0;
+}
+nav .navbar {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+nav .navbar .logo a {
+  font-weight: 500;
+  font-size: 35px;
+  color: #4070f4;
+  transition: all 0.4s ease;
+}
+nav .navbar .logo a:hover {
+  font-weight: 500;
+  font-size: 35px;
+  color: #000;
+  transition: all 0.4s ease;
+}
+nav.sticky .navbar .logo a {
+  color: #fff;
+}
+nav .navbar .menu {
+  display: flex;
+  position: relative;
+}
+nav .navbar .menu li {
+  list-style: none;
+  margin: 0 8px;
+}
+/* Navbar - Top */
+.navbar .menu a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0e2431;
+  padding: 6px 0;
+  transition: all 0.4s ease;
+  position: relative;
+}
+.navbar .menu a:hover {
+  color: #4070f4;
+}
+.navbar .menu li a:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: #4070f4;
+  border-radius: 12px;
+  transition: all 0.4s ease;
+}
+.navbar .menu li a:hover:before {
+  width: 100%;
+}
+.navbar .menu li.center a:before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.navbar .menu li.upward a:before {
+  width: 100%;
+  opacity: 0;
+}
+.navbar .menu li.upward a:hover:before {
+  opacity: 1;
+}
+.navbar .menu li.forward a:before {
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease;
+}
+.navbar .menu li.forward a:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+/*  Navbar - Sticky */
+nav.sticky .menu a {
+  color: #fff;
+}
+nav.sticky .menu a:hover {
+  color: #0e2431;
+}
+nav.sticky .menu li a:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: #000;
+  border-radius: 12px;
+  transition: all 0.4s ease;
+}
+nav.sticky .menu li a:hover:before {
+  width: 100%;
+}
+nav.sticky .menu li.center a:before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+nav.sticky .menu li.upward a:before {
+  width: 100%;
+  opacity: 0;
+}
+nav.sticky .menu li.upward a:hover:before {
+  opacity: 1;
+}
+nav.sticky .menu li.forward a:before {
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease;
+}
+nav.sticky .menu li.forward a:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.navbar .media-icons a {
+  color: #4070f4;
+  font-size: 18px;
+  margin: 0 6px;
+}
+.navbar .media-icons a:hover {
+  color: #000;
+  font-size: 17px;
+  margin: 0 6px;
+}
+nav.sticky .media-icons a {
+  color: #fff;
+}
+
+/* Side Navigation Menu Button CSS */
+nav .menu-btn,
+.navbar .menu .cancel-btn {
+  position: absolute;
+  color: #fff;
+  right: 30px;
+  top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: none;
+}
+nav .menu-btn {
+  color: #4070f4;
+}
+nav.sticky .menu-btn {
+  color: #fff;
+}
+.navbar .menu .menu-btn {
+  color: #fff;
+}
+
+@media (max-width: 750px) {
+  nav .navbar {
+    width: 90%;
+  }
+  nav .navbar .menu {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    background: #0e2431;
+    height: 100vh;
+    max-width: 400px;
+    width: 100%;
+    padding-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s ease;
+  }
+  .navbar.active .menu {
+    left: 0;
+  }
+  nav .navbar .menu a {
+    font-size: 23px;
+    display: block;
+    color: #fff;
+    margin: 10px 0;
+  }
+  nav.sticky .menu a:hover {
+    color: #4070f4;
+  }
+  nav .navbar .media-icons {
+    display: none;
+  }
+  nav .menu-btn,
+  .navbar .menu .cancel-btn {
+    display: block;
+  }
+}
