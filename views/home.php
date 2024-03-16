@@ -84,7 +84,7 @@
                     <div class="topic">En formation à l'Ecole Supérieur de Génie Informatique</div>
                     <p>Actuellement en formation, je développe mes compétences et les mets à jour chaque fois que je sens avoir progressé, au cours de mes études j'étudie le HTML5, le CSS, le JS, le PHP, le C, ou encore l'administration Linux et Windows.</p>
                     <div class="experience">
-                        <div class="num">5</div>
+                        <div class="per">5</div>
                         <div class="exp">
                             années <br />
                             d'école
@@ -210,7 +210,7 @@
     <!-- Footer -->
     <footer>
         <div class="text">
-            <span>Crée par <a href="#">/FabienLubin></a> avec le <i class="fa-regular fa-heart-pulse fa-beat"></i></span>
+            <span>Crée par <a href="#"><i class="fa-solid fa-slash-forward"></i>FabienLubin</a><i class="fa-solid fa-angle-right"></i> avec le <i class="fa-regular fa-heart-pulse fa-beat"></i></span>
         </div>
 
     </footer>
