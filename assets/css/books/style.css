@@ -85,32 +85,34 @@ a {
   transition: all 0.4s ease;
 }
 .modifbooklink {
-  color: #fff;
+  font-size: 2rem;
+  color: blue;
   text-decoration: none;
-  border: solid 1px #afd31e;
+  /* border: solid 1px #11356c;
   border-radius: 5px;
-  background-color: #afd31e;
+  background-color: #11356c; */
   padding: 1%;
   transition: all 0.4s ease;
 }
 .modifbooklink:hover {
-  color: #fff;
-  background-color: #4b5b0c;
-  border: solid 1px #4b5b0c;
+  color: #000;
+  /* background-color: #091c39;
+  border: solid 1px #091c39; */
   transition: all 0.4s ease;
 }
 .deletebooklink {
-  color: #fff;
+  font-size: 2rem;
+  color: red;
   text-decoration: none;
-  border: solid 1px #d31e1e;
+  /* border: solid 1px #d31e1e;
   border-radius: 5px;
-  background-color: #d31e1e;
+  background-color: #d31e1e; */
   padding: 1%;
   transition: all 0.4s ease;
 }
 .deletebooklink:hover {
-  color: #fff;
-  background-color: #791111;
-  border: solid 1px #791111;
+  color: #000;
+  /* background-color: #791111;
+  border: solid 1px #791111; */
   transition: all 0.4s ease;
 }

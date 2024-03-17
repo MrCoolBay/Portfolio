@@ -7,7 +7,13 @@
     <link rel="stylesheet" href="assets/css/books/nav.css">
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/img/Bouqinbazarhigh.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="shortcut icon" href="assets/img/books/Bouqinbazarhigh.png" type="image/x-icon">
     <title>Affichage - BouquinBazar</title>
 </head>
 
@@ -20,10 +26,10 @@
             <div class="topic-text">Consultez les livres</div>
             <table>
                 <tr class="header">
-                    <td class="auteur">Auteur</td>
-                    <td>Nom</td>
-                    <td>Année</td>
-                    <td class="resume">Résumé</td>
+                    <td class="auteur"><i class="fa-duotone fa-signature"></i> Auteur</td>
+                    <td><i class="fa-duotone fa-input-text"></i> Nom</td>
+                    <td><i class="fa-duotone fa-calendar"></i> Année</td>
+                    <td class="resume"><i class="fa-duotone fa-comments"></i> Résumé</td>
                 </tr>
                 <!-- Récupération des données -->
                 <?php
