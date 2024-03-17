@@ -5,8 +5,8 @@ if (isset($_GET["page"]) && !empty($_GET["page"])) {
 
     if ($page == "home") {
         DisplayHome();
-    } else if ($page == "project") {
-        DisplayProject();
+    } else if ($page == "homebook") {
+        DisplayProjectBooks();
     }
 } else {
     DisplayHome();

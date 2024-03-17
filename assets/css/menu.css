@@ -89,6 +89,9 @@ nav .navbar .menu li {
   transform-origin: left;
 }
 /*  Navbar - Sticky */
+nav.sticky .logo a:hover {
+  color: #000;
+}
 nav.sticky .menu a {
   color: #fff;
 }

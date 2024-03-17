@@ -85,9 +85,7 @@
   color: #4070f4;
 }
 
-/* About Section Styling */
-/* Those Elements Where We Have Apply Same CSS,
- I'm Selecting Directly 'Section Tag' and 'Class'  */
+/* Section A Propos */
 section {
   padding-top: 40px;
 }
@@ -172,7 +170,7 @@ section .button button:hover {
   color: #4070f4;
 }
 
-/* My Skills CSS */
+/* Mes compétences CSS */
 .skills {
   background: #f0f8ff;
 }
@@ -237,7 +235,8 @@ section .button button:hover {
   color: #4070f4;
   margin-left: 10px;
 }
-/* My Services CSS */
+
+/* Mes Services CSS */
 .services .boxes {
   display: flex;
   flex-wrap: wrap;
@@ -282,7 +281,8 @@ section .button button:hover {
 .services .boxes .box:hover p {
   color: #fff;
 }
-/* Contact Me CSS */
+
+/* Contactez-moi CSS */
 .contact {
   background: #f0f8ff;
 }
@@ -331,7 +331,7 @@ footer .text span a:hover {
   color: #000;
 }
 
-/* Scroll TO Top Button CSS */
+/* Boutton retour haut CSS */
 .scroll-button a {
   position: fixed;
   bottom: 20px;
@@ -345,7 +345,7 @@ footer .text span a:hover {
   display: none;
 }
 
-/* Responsive Media Query */
+/* Responsive Media  */
 @media (max-width: 1190px) {
   section .content {
     width: 85%;

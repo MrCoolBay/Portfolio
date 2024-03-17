@@ -162,7 +162,7 @@
                         <i class="fa-solid fa-code fa-fade"></i>
                     </div>
                     <div class="topic">Développement Web</div>
-                    <p>Je réalise des projets dans le cadre de mes études, tels qu’un gestionnaire de base de données de livres, où l’on peut ajouter, modifier et supprimer des livres selon nos préférences.</p>
+                    <p>Je réalise des projets dans le cadre de mes études, tels qu’un <a href="indexbook.php?page=home">gestionnaire de base de données de livres</a>, où l’on peut ajouter, modifier et supprimer des livres selon nos préférences.</p>
                 </div>
                 <div class="box">
                     <div class="icon">
@@ -210,7 +210,7 @@
     <!-- Footer -->
     <footer>
         <div class="text">
-            <span>Crée par <a href="#"><i class="fa-solid fa-slash-forward"></i>FabienLubin</a><i class="fa-solid fa-angle-right"></i> avec le <i class="fa-regular fa-heart-pulse fa-beat"></i></span>
+            <span>Crée par <a href="#"><i class="fa-solid fa-slash-forward"></i>FabienLubin<i class="fa-solid fa-angle-right"></i></a> avec le <i class="fa-regular fa-heart-pulse fa-beat"></i></span>
         </div>
 
     </footer>

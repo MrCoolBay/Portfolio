@@ -4,7 +4,7 @@ function DisplayHome()
 {
     require("views/home.php");
 }
-function DisplayProject()
+function DisplayProjectBooks()
 {
-    require("views/project.php");
+    require("views/projects/books/home.php");
 }
