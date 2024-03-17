@@ -35,11 +35,22 @@ function DisplayOptionBooks()
     require("views/projects/books/optionbooks.php");
 }
 
-// Affichage de la page de contact 
-function DisplayContact()
+// Affichage des confirmations ou non confirmations
+function DisplayCorrect()
 {
-    DbConnexion();
-    require("views/projects/books/contact.php");
+    require("views/projects/books/correct.php");
+}
+function DisplayIncorrect()
+{
+    require("views/projects/books/incorrect.php");
+}
+function DisplayDelete()
+{
+    require("views/projects/books/delete.php");
+}
+function DisplayNoDelete()
+{
+    require("views/projects/books/nodelete.php");
 }
 
 // Confirmation de l'ajout de livre
@@ -54,9 +65,9 @@ function AddBook()
     // Ajout du livre dans la base de données
     $result = DbAddBook($name, $author, $year, $summary);
     if ($result) {
-        echo "Le livre a bien été ajouté.";
+        DisplayCorrect();
     } else {
-        echo "Une erreur est survenue lors de l'ajout du livre.";
+        DisplayIncorrect();
     }
 }
 
@@ -71,9 +82,9 @@ function DeleteBookByName()
     $name = $_GET['delete'];
     $result = DbDeleteBookByName($name);
     if ($result) {
-        echo "Le livre a bien été supprimé.";
+        DisplayDelete();
     } else {
-        echo "Une erreur est survenue lors de la suppression du livre.";
+        DisplayNoDelete();
     }
     // Après la suppression, rediriger vers la page de consultation des livres
     DisplayBooks();

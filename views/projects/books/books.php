@@ -23,7 +23,7 @@
     </nav>
     <section class="home-section">
         <div class="livres">
-            <div class="topic-text">Consultez les livres</div>
+            <div class="topic-text title"><span>Consultez les livres</span></div>
             <table>
                 <tr class="header">
                     <td class="auteur"><i class="fa-duotone fa-signature"></i> Auteur</td>

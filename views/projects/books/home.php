@@ -25,7 +25,7 @@
         ?>
     </nav>
     <section class="home-section">
-        <div class="topic-text">Accueil</div>
+        <div class="topic-text title"><span>Accueil</span></div>
         <p>Bienvenue sur BouqinBazar, <a href="#">LA</a> base de données,</p>
         <p>
             Vous pouvez <a href="indexbook.php?page=books"><i class="fa-duotone fa-eye"></i> consulter</a> ou <a href="indexbook.php?page=optionbooks"><i class="fa-duotone fa-wrench"></i> modifier</a> les livres via le menu de navigation.

@@ -27,12 +27,40 @@ body {
 }
 
 .topic-text {
-  font-size: 23px;
+  font-size: 30px;
   font-weight: 600;
   color: #1ea7d3;
   text-align: center;
 }
-
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.title span {
+  color: #1ea7d3;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 8px;
+}
+.title span::before,
+.title span::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #1ea7d3;
+  left: 0;
+  bottom: 0;
+  border-radius: 10px;
+}
+.title span::after {
+  bottom: -7px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .form.login header {
   color: #333;
   opacity: 0.6;

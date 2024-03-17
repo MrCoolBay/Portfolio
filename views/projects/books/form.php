@@ -1,6 +1,6 @@
 <section class="wrapper">
     <div class="form signup">
-        <div class="topic-text">Ajoutez un livre</div>
+        <div class="topic-text title"><span>Ajoutez un livre</span></div>
         <form action="indexbook.php?form=add" method="post">
             <input type="text" placeholder="Nom du livre" id="name" name="name" />
             <input type="text" placeholder="Auteur" id="author" name="author" required />

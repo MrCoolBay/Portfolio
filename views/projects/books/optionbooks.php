@@ -23,7 +23,7 @@
     </nav>
     <section class="home-section">
         <div class="livres">
-            <div class="topic-text">Gestion les livres</div>
+            <div class="topic-text title"><span>Gestion les livres</span></div>
             <table>
                 <tr class="header">
                     <td class="auteur"><i class="fa-duotone fa-signature"></i> Auteur</td>
@@ -31,7 +31,7 @@
                     <td><i class="fa-duotone fa-calendar"></i> Année</td>
                     <td><i class="fa-duotone fa-comments"></i> Résumé</td>
                     <td class="resume"><i class="fa-duotone fa-gears"></i> Options
-                        <a class="addbooklink" href="indexbook.php?page=addbook">Ajouter</a>
+                        <a class="addbooklink" href="indexbook.php?page=addbook"><i class="fa-duotone fa-books-medical"></i></a>
                     </td>
                 </tr>
                 <!-- Récupération des données -->

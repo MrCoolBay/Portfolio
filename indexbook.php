@@ -15,13 +15,12 @@ if (isset($_GET["delete"]) && !empty($_GET["delete"])) {
         DisplayOptionBooks();
     } elseif ($page == "addbook") {
         DisplayAddBook();
-    } elseif ($page == "contact") {
-        DisplayContact();
+    } elseif ($page == "correct") {
+        DisplayCorrect();
     }
 } elseif (isset($_GET["form"]) && !empty($_GET["form"])) {
     $form = htmlspecialchars($_GET["form"]);
     if ($_SERVER["REQUEST_METHOD"] == "POST" && $form == "add") {
-        DisplayBooks();
         AddBook();
     } elseif ($_SERVER["REQUEST_METHOD"] == "POST" && $form == "edit") {
         DisplayBooks();

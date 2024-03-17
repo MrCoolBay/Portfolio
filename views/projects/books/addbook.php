@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
-    <title>Ajout - BouquinBazar</title>
+    <title>Ajout de livre - BouquinBazar</title>
 </head>
 
 <body>
