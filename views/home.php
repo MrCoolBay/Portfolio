@@ -162,7 +162,7 @@
                         <i class="fa-solid fa-code fa-fade"></i>
                     </div>
                     <div class="topic">Développement Web</div>
-                    <p>Je réalise des projets dans le cadre de mes études, tels qu’un <a href="indexbook.php?page=home">gestionnaire de base de données de livres</a>, où l’on peut ajouter, modifier et supprimer des livres selon nos préférences.</p>
+                    <p>Je réalise des projets dans le cadre de mes études, tels qu’un <a class="books" href="indexbook.php?page=home">gestionnaire de base de données de livres</a>, où l’on peut ajouter, modifier et supprimer des livres selon nos préférences.</p>
                 </div>
                 <div class="box">
                     <div class="icon">

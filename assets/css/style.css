@@ -281,7 +281,14 @@ section .button button:hover {
 .services .boxes .box:hover p {
   color: #fff;
 }
-
+.books {
+  color: #000;
+  text-decoration: underline;
+  transition: all 0.4s ease;
+}
+.books:hover {
+  color: #fff;
+}
 /* Contactez-moi CSS */
 .contact {
   background: #f0f8ff;
