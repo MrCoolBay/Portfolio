@@ -7,7 +7,7 @@
         Erreur 404 | /FL>
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/404.css" />
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="shortcut icon" href="assets/img/7.png" type="image/x-icon">
     <!-- Fontawesome CDN -->
@@ -34,9 +34,9 @@
     <section class="home" id="home">
         <div class="home-content">
             <div class="text">
-                <div class="text-one">La page n'a pas été trouvé,</div>
-                <div class="text-two">Erreur</div>
-                <div class="text-three">404</div>
+                <div class="text-one">Erreur</div>
+                <div class="text-two">404</div>
+                <div class="text-three">La page n'a pas été trouvé,</div>
             </div>
             <div class="button">
                 <form action="index.php?page=home">
