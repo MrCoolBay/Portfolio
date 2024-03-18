@@ -7,6 +7,8 @@ if (isset($_GET["page"]) && !empty($_GET["page"])) {
         DisplayHome();
     } else if ($page == "homebook") {
         DisplayProjectBooks();
+    } else if ($page == "404") {
+        DisplayErreur();
     }
 } else {
     DisplayHome();

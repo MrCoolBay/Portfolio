@@ -8,3 +8,7 @@ function DisplayProjectBooks()
 {
     require("views/projects/books/home.php");
 }
+function DisplayErreur()
+{
+    require("views/404.php");
+}

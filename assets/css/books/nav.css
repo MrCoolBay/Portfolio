@@ -1,18 +1,27 @@
 /* Google Fonts Import Link */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-
-.nav-links {
-  box-sizing: border-box;
-  position: absolute;
+nav {
+  position: fixed;
+  left: 25%;
+  right: 0;
+  top: 1%;
+}
+/* .navbar {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  margin: auto;
+  left: 25%;
+  right: 0;
+} */
+.nav-links {
+  display: flex;
+  box-sizing: border-box;
+  position: absolute;
   background: #fff;
   padding: 20px 15px;
   border-radius: 12px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  left: 25%;
-  top: 1%;
 }
 .nav-links li {
   list-style: none;

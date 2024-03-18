@@ -41,7 +41,6 @@
                         <td><?= nl2br(htmlspecialchars($book['name'])) ?></td>
                         <td><?= nl2br(htmlspecialchars($book['year'])) ?></td>
                         <td class="summary"><?= nl2br(htmlspecialchars($book['summary'])) ?></td>
-
                     </tr>
                 <?php
                 }
