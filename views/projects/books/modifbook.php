@@ -18,6 +18,9 @@
 </head>
 
 <body>
+    <?php
+    $book = $data;
+    ?>
     <nav>
         <?php require("menubook.php"); ?>
     </nav>
@@ -25,9 +28,16 @@
         <div class="form">
             <section class="wrapper">
                 <div class="form signup">
-                    <div class="topic-text title"><span>Ajoutez un livre</span></div>
-                    <?php
-                    require("form.php"); ?>
+                    <div class="topic-text title"><span>Modifier un livre</span></div>
+                    <form action="indexbook.php?form=edit" method="post">
+                        <input type="text" value="<?php echo $book['name']; ?>" placeholder="<?php echo $book['name']; ?>" id="name" name="name" />
+                        <input type="text" value="<?php echo $book['name']; ?>" placeholder="<?php echo $book['name']; ?>" id="author" name="author" required />
+                        <input type="number" value="<?php echo $book['name']; ?>" placeholder="<?php echo $book['name']; ?>" id="year" name="year" required />
+                        <textarea type="text" value="<?php echo $book['name']; ?>" placeholder="<?php echo $book['name']; ?>" id="summary" name="summary" required></textarea>
+                        <div class="button">
+                            <input type="submit" value="Modifier">
+                        </div>
+                    </form>
                 </div>
             </section>
         </div>

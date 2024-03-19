@@ -14,11 +14,12 @@ body {
   align-items: center;
   justify-content: center;
 }
-
-.wrapper {
+.home-section {
+  width: 95%;
   margin-top: 6%;
+}
+.wrapper {
   margin-left: 5%;
-  width: 90%;
   border-radius: 12px;
   padding: 20px 30px 50px;
   background: #fff;

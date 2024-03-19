@@ -17,6 +17,8 @@ if (isset($_GET["delete"]) && !empty($_GET["delete"])) {
         DisplayAddBook();
     } elseif ($page == "correct") {
         DisplayCorrect();
+    } elseif ($page == "modifbook") {
+        DisplayModifBook();
     }
 } elseif (isset($_GET["form"]) && !empty($_GET["form"])) {
     $form = htmlspecialchars($_GET["form"]);

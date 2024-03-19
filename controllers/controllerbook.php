@@ -16,10 +16,10 @@ function DisplayBooks()
 }
 
 //Affichage de la page de modification
-function DisplayModifBooks()
+function DisplayModifBook()
 {
-    DbConnexion();
-    require("views/projects/books/modifbooks.php");
+    $data = DbBooks();
+    require("views/projects/books/modifbook.php");
 }
 //Affichage de la page d'ajout de livre
 function DisplayAddBook()
@@ -52,6 +52,14 @@ function DisplayNoDelete()
 {
     require("views/projects/books/nodelete.php");
 }
+function DisplayModifCorrect()
+{
+    require("views/projects/books/modifcorrect.php");
+}
+function DisplayModifIncorrect()
+{
+    require("views/projects/books/modifincorrect.php");
+}
 
 // Confirmation de l'ajout de livre
 function AddBook()
@@ -74,6 +82,17 @@ function AddBook()
 //Confirmation de la modification 
 function EditBook()
 {
+    $id = $_POST['id'];
+    $name = $_POST['name'];
+    $author = $_POST['author'];
+    $year = $_POST['year'];
+    $summary = $_POST['summary'];
+    $result = DbEditBook($id, $name, $author, $year, $summary);
+    if ($result) {
+        DisplayModifCorrect();
+    } else {
+        DisplayModifIncorrect();
+    }
 }
 
 // Confirmation de la suppression
