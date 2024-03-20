@@ -12,21 +12,26 @@ if (isset($_GET["delete"]) && !empty($_GET["delete"])) {
     } elseif ($page == "books") {
         DisplayBooks();
     } elseif ($page == "optionbooks") {
-        DisplayOptionBooks();
+        DisplayOptionBooks($id, $name, $author, $year, $summary);
     } elseif ($page == "addbook") {
         DisplayAddBook();
     } elseif ($page == "correct") {
         DisplayCorrect();
     } elseif ($page == "modifbook") {
-        DisplayModifBook();
+        if (isset($_GET["modif"]) && !empty($_GET["modif"])) {
+            $id = htmlspecialchars($_GET["modif"]);
+            DisplayModifBook($id);
+        }
     }
 } elseif (isset($_GET["form"]) && !empty($_GET["form"])) {
     $form = htmlspecialchars($_GET["form"]);
     if ($_SERVER["REQUEST_METHOD"] == "POST" && $form == "add") {
         AddBook();
     } elseif ($_SERVER["REQUEST_METHOD"] == "POST" && $form == "edit") {
-        DisplayBooks();
-        EditBook();
+        if (isset($_GET["modif"]) && !empty($_GET["modif"])) {
+            $id = htmlspecialchars($_GET["modif"]);
+            EditBook($id);
+        }
     }
 } else {
     DisplayHome();

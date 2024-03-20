@@ -16,8 +16,9 @@ function DisplayBooks()
 }
 
 //Affichage de la page de modification
-function DisplayModifBook()
+function DisplayModifBook($id)
 {
+    $dataID = DbBookID($id);
     $data = DbBooks();
     require("views/projects/books/modifbook.php");
 }
@@ -29,8 +30,9 @@ function DisplayAddBook()
 }
 
 //Affichage de la page de gestion
-function DisplayOptionBooks()
+function DisplayOptionBooks($id, $name, $author, $year, $summary)
 {
+    $dataID = DbBookID($id);
     $data = DbBooks();
     require("views/projects/books/optionbooks.php");
 }
@@ -64,11 +66,11 @@ function DisplayModifIncorrect()
 // Confirmation de l'ajout de livre
 function AddBook()
 {
-    // Récupération des données du formulaire (simulé)
-    $name = $_POST['name'];
-    $author = $_POST['author'];
-    $year = $_POST['year'];
-    $summary = $_POST['summary'];
+    // Récupération des données du formulaire 
+    $name = htmlspecialchars($_POST['name']);
+    $author = htmlspecialchars($_POST['author']);
+    $year = htmlspecialchars($_POST['year']);
+    $summary = htmlspecialchars($_POST['summary']);
 
     // Ajout du livre dans la base de données
     $result = DbAddBook($name, $author, $year, $summary);
@@ -80,13 +82,15 @@ function AddBook()
 }
 
 //Confirmation de la modification 
-function EditBook()
+function EditBook($id)
 {
-    $id = $_POST['id'];
-    $name = $_POST['name'];
-    $author = $_POST['author'];
-    $year = $_POST['year'];
-    $summary = $_POST['summary'];
+    //Récupération des données du formulaire
+    $name = htmlspecialchars($_POST['name']);
+    $author = htmlspecialchars($_POST['author']);
+    $year = htmlspecialchars($_POST['year']);
+    $summary = htmlspecialchars($_POST['summary']);
+
+    //Modif du livre
     $result = DbEditBook($id, $name, $author, $year, $summary);
     if ($result) {
         DisplayModifCorrect();
@@ -98,7 +102,7 @@ function EditBook()
 // Confirmation de la suppression
 function DeleteBookByName()
 {
-    $name = $_GET['delete'];
+    $name = htmlspecialchars($_GET['delete']);
     $result = DbDeleteBookByName($name);
     if ($result) {
         DisplayDelete();

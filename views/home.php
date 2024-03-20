@@ -210,7 +210,7 @@
     <!-- Footer -->
     <footer>
         <div class="text">
-            <span>Crée par <a href="#"><i class="fa-solid fa-slash-forward"></i>FabienLubin<i class="fa-solid fa-angle-right"></i></a> avec le <i class="fa-regular fa-heart-pulse fa-beat"></i></span>
+            <span>Crée par <a href="#"><i class="fa-solid fa-slash-forward"></i>FabienLubin<i class="fa-solid fa-angle-right"></i></a> avec le <a href=""><i class="fa-regular fa-heart-pulse fa-beat"></i></a></span>
         </div>
 
     </footer>

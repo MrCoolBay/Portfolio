@@ -22,11 +22,12 @@ function DbBooks()
     return $ligne;
 }
 //Affichage de livre avec id
-function DbBookID()
+function DbBookID($id)
 {
     $db = DbConnexion();
-    $sql = "SELECT * FROM books WHERE :id = id";
+    $sql = "SELECT * FROM books WHERE id = :id";
     $statement = $db->prepare($sql);
+    $statement->bindParam(':id', $id);
     if ($statement->execute()) {
         $ligne = $statement->fetchAll();
     }
@@ -61,7 +62,9 @@ function DbDeleteBookByName($name)
     }
     return false;
 }
-function DbEditBook()
+
+// Modification du livre via son ID
+function DbEditBook($id, $name, $author, $year, $summary)
 {
     $db = DbConnexion();
     $sql = "UPDATE books SET name = :name, author = :author, year = :year, summary = :summary WHERE id = :id";
@@ -73,7 +76,7 @@ function DbEditBook()
     $statement->bindParam(':summary', $summary);
 
     if ($statement->execute()) {
-        DisplayModifCorrect();
+        return true;
     }
-    DisplayModifIncorrect();
+    return false;
 }
