@@ -29,7 +29,7 @@ function DbBookID($id)
     $statement = $db->prepare($sql);
     $statement->bindParam(':id', $id);
     if ($statement->execute()) {
-        $ligne = $statement->fetchAll();
+        $ligne = $statement->fetch();
     }
     return $ligne;
 }

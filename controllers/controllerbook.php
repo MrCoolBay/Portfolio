@@ -18,8 +18,8 @@ function DisplayBooks()
 //Affichage de la page de modification
 function DisplayModifBook($id)
 {
-    $dataID = DbBookID($id);
-    $data = DbBooks();
+    $data = DbBookID($id);
+    //$data = DbBooks();
     require("views/projects/books/modifbook.php");
 }
 //Affichage de la page d'ajout de livre
@@ -67,10 +67,10 @@ function DisplayModifIncorrect()
 function AddBook()
 {
     // Récupération des données du formulaire 
-    $name = htmlspecialchars($_POST['name']);
-    $author = htmlspecialchars($_POST['author']);
-    $year = htmlspecialchars($_POST['year']);
-    $summary = htmlspecialchars($_POST['summary']);
+    $name = htmlspecialchars_decode($_POST['name']);
+    $author = htmlspecialchars_decode($_POST['author']);
+    $year = htmlspecialchars_decode($_POST['year']);
+    $summary = htmlspecialchars_decode($_POST['summary']);
 
     // Ajout du livre dans la base de données
     $result = DbAddBook($name, $author, $year, $summary);
@@ -85,10 +85,10 @@ function AddBook()
 function EditBook($id)
 {
     //Récupération des données du formulaire
-    $name = htmlspecialchars($_POST['name']);
-    $author = htmlspecialchars($_POST['author']);
-    $year = htmlspecialchars($_POST['year']);
-    $summary = htmlspecialchars($_POST['summary']);
+    $name = htmlspecialchars_decode($_POST['name']);
+    $author = htmlspecialchars_decode($_POST['author']);
+    $year = htmlspecialchars_decode($_POST['year']);
+    $summary = htmlspecialchars_decode($_POST['summary']);
 
     //Modif du livre
     $result = DbEditBook($id, $name, $author, $year, $summary);
@@ -102,7 +102,7 @@ function EditBook($id)
 // Confirmation de la suppression
 function DeleteBookByName()
 {
-    $name = htmlspecialchars($_GET['delete']);
+    $name = htmlspecialchars_decode($_GET['delete']);
     $result = DbDeleteBookByName($name);
     if ($result) {
         DisplayDelete();

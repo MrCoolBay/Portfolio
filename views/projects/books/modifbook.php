@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/books/nav.css">
     <link rel="stylesheet" href="assets/css/books/form.css">
-    <link rel="shortcut icon" href="assets/img/books/Bouqinbazarhigh.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/Bouqinbazarhigh.png" type="image/x-icon">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
@@ -19,8 +19,8 @@
 
 <body>
     <?php
-    $bookID = $dataID;
-    $book = $data;
+    //var_dump($data);
+    //die();
     ?>
     <nav>
         <?php require("menubook.php"); ?>
@@ -31,10 +31,10 @@
                 <div class="form signup">
                     <div class="topic-text title"><span>Modifier un livre</span></div>
                     <form action="indexbook.php?form=edit&modif=<?= $id ?>" method="post">
-                        <input type="text" placeholder="" id="name" name="name" required />
-                        <input type="text" value="" id="author" name="author" required />
-                        <input type="number" value="" id="year" name="year" required />
-                        <textarea type="text" value="" id="summary" name="summary" required></textarea>
+                        <input type="text" value="<?= $data['name'] ?>" placeholder="<?= $data['name'] ?>" id="name" name="name" />
+                        <input type="text" value="<?= $data['author'] ?>" placeholder="<?= $data['author'] ?>" id="author" name="author" />
+                        <input type="number" value="<?= $data['year'] ?>" placeholder="<?= $data['year'] ?>" id="year" name="year" />
+                        <textarea type="text" placeholder="<?= $data['summary'] ?>" id="summary" name="summary"></textarea>
                         <div class="button">
                             <input type="submit" value="Modifier">
                         </div>

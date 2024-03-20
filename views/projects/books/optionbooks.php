@@ -40,12 +40,12 @@
                 ?>
                     <tr class="data">
                         <!-- Affichage des données -->
-                        <td><?= htmlspecialchars($book['author']) ?></td>
-                        <td><?= nl2br(htmlspecialchars($book['name'])) ?></td>
-                        <td><?= nl2br(htmlspecialchars($book['year'])) ?></td>
-                        <td class="summary"><?= nl2br(htmlspecialchars($book['summary'])) ?></td>
+                        <td><?= htmlspecialchars_decode($book['author']) ?></td>
+                        <td><?= nl2br(htmlspecialchars_decode($book['name'])) ?></td>
+                        <td><?= nl2br(htmlspecialchars_decode($book['year'])) ?></td>
+                        <td class="summary"><?= nl2br(htmlspecialchars_decode($book['summary'])) ?></td>
                         <td>
-                            <a class="modifbooklink" href="indexbook.php?page=modifbook&modif=<?= urlencode($book['id']) ?>"><i class="fa-duotone fa-wrench"></i></a>
+                            <a class="modifbooklink" href="indexbook.php?page=modifbook&modif=<?= urlencode($book['id']) ?>"><i class="fa-duotone fa-pen-to-square"></i></a>
                             <a class="deletebooklink" href="indexbook.php?delete=<?= urlencode($book['name']) ?>"><i class="fa-duotone fa-trash"></i></button>
                         </td>
                     </tr>

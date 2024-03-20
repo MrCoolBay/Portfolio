@@ -19,17 +19,17 @@ if (isset($_GET["delete"]) && !empty($_GET["delete"])) {
         DisplayCorrect();
     } elseif ($page == "modifbook") {
         if (isset($_GET["modif"]) && !empty($_GET["modif"])) {
-            $id = htmlspecialchars($_GET["modif"]);
+            $id = htmlspecialchars_decode($_GET["modif"]);
             DisplayModifBook($id);
         }
     }
 } elseif (isset($_GET["form"]) && !empty($_GET["form"])) {
-    $form = htmlspecialchars($_GET["form"]);
+    $form = htmlspecialchars_decode($_GET["form"]);
     if ($_SERVER["REQUEST_METHOD"] == "POST" && $form == "add") {
         AddBook();
     } elseif ($_SERVER["REQUEST_METHOD"] == "POST" && $form == "edit") {
         if (isset($_GET["modif"]) && !empty($_GET["modif"])) {
-            $id = htmlspecialchars($_GET["modif"]);
+            $id = htmlspecialchars_decode($_GET["modif"]);
             EditBook($id);
         }
     }
