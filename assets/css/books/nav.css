@@ -1,19 +1,14 @@
 /* Google Fonts Import Link */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 nav {
-  position: fixed;
-  left: 25%;
-  right: 0;
-  top: 1%;
+  box-sizing: border-box;
 }
-/* .navbar {
+.navbar {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   margin: auto;
-  left: 25%;
-  right: 0;
-} */
+  justify-content: center;
+  margin-top: 1%;
+}
 .nav-links {
   display: flex;
   box-sizing: border-box;

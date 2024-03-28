@@ -18,9 +18,12 @@
 </head>
 
 <body>
-    <nav>
-        <?php require("menubook.php"); ?>
-    </nav>
+    <header>
+        <nav>
+            <?php require("menubook.php"); ?>
+        </nav>
+    </header>
+
     <section class="home-section">
         <div class="livres">
             <div class="topic-text title"><span>Consultez les livres</span></div>
