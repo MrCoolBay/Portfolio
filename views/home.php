@@ -26,6 +26,7 @@
     <div class="scroll-button">
         <a href="#home"><i class="fas fa-arrow-up"></i></a>
     </div>
+
     <!-- Menu de Navigation -->
     <nav>
         <?php require("menu.php") ?>
@@ -75,7 +76,6 @@
     </section>
 
     <!-- Mes compétences -->
-
     <section class="skills" id="skills">
         <div class="content">
             <div class="title"><span>Mes Compétences</span></div>
@@ -83,6 +83,8 @@
                 <div class="text">
                     <div class="topic">En formation à l'Ecole Supérieur de Génie Informatique</div>
                     <p>Actuellement en formation, je développe mes compétences et les mets à jour chaque fois que je sens avoir progressé, au cours de mes études j'étudie le HTML5, le CSS, le JS, le PHP, le C, ou encore l'administration Linux et Windows.</p>
+                    <p>Grâce à mon stage effectué chez <a href="hhtps://thekhtech.com">HK-Tech</a>, j'ai pu améliorer mes compétences et en développer des nouvelles notammenent sur les framework, Vue.JS et Nuxt.</p>
+                    <p>J'ai également développer mon expérience en API avec Flask et FastAPI.</p>
                     <div class="experience">
                         <div class="per">5</div>
                         <div class="exp">
@@ -93,9 +95,9 @@
                 </div>
                 <div class="boxes">
                     <div class="box">
-                        <div class="topic"><i class="fa-brands fa-html5"></i> HTML</div>
+                        <div class="topic"><i class="fa-brands fa-html5"></i> HTML/CSS</div>
                         <div class="allpe">
-                            <div class="per">85</div>
+                            <div class="per">90</div>
                             <div class="perc">
                                 <i class="fa-regular fa-percent"></i>
                             </div>
@@ -103,9 +105,9 @@
 
                     </div>
                     <div class="box">
-                        <div class="topic"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+                        <div class="topic"><i class="fa-brands fa-vuejs"></i> Vue.Js/Nuxt</div>
                         <div class="allpe">
-                            <div class="per">70</div>
+                            <div class="per">80</div>
                             <div class="perc">
                                 <i class="fa-regular fa-percent"></i>
                             </div>
@@ -114,7 +116,7 @@
                     <div class="box">
                         <div class="topic"><i class="fa-brands fa-js"></i> JavaScript</div>
                         <div class="allpe">
-                            <div class="per">10</div>
+                            <div class="per">85</div>
                             <div class="perc">
                                 <i class="fa-regular fa-percent"></i>
                             </div>
@@ -123,7 +125,7 @@
                     <div class="box">
                         <div class="topic"><i class="fa-brands fa-php"></i> PHP</div>
                         <div class="allpe">
-                            <div class="per">40</div>
+                            <div class="per">60</div>
                             <div class="perc">
                                 <i class="fa-regular fa-percent"></i>
                             </div>
@@ -139,9 +141,9 @@
                         </div>
                     </div>
                     <div class="box">
-                        <div class="topic"><i class="fa-brands fa-windows"></i> Windows</div>
+                        <div class="topic"><i class="fa-brands fa-python"></i> FastAPI</div>
                         <div class="allpe">
-                            <div class="per">75</div>
+                            <div class="per">60</div>
                             <div class="perc">
                                 <i class="fa-regular fa-percent"></i>
                             </div>
@@ -162,7 +164,7 @@
                         <i class="fa-solid fa-code fa-fade"></i>
                     </div>
                     <div class="topic">Développement Web</div>
-                    <p>Je réalise des projets dans le cadre de mes études, tels qu’un <a class="books" href="indexbook.php?page=home">gestionnaire de base de données de livres</a>, où l’on peut ajouter, modifier et supprimer des livres selon nos préférences.</p>
+                    <p>Je réalise des projets dans le cadre de mes études, tels qu’un gestionnaire de base de données de livres, où l’on peut ajouter, modifier et supprimer des livres selon nos préférences.</p>
                 </div>
                 <div class="box">
                     <div class="icon">
