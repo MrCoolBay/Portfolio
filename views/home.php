@@ -67,7 +67,7 @@
                     </p>
                     <div class="button">
                         <form action="assets/cv/CVFabien.pdf" download>
-                            <button>Télécharger mon CV</button>
+                            <button>Visiualiser mon CV</button>
                         </form>
                     </div>
                 </div>
@@ -161,24 +161,24 @@
             <div class="boxes">
                 <div class="box">
                     <div class="icon">
-                        <i class="fa-solid fa-code fa-fade"></i>
+                        <i class="fas fa-desktop"></i>
                     </div>
                     <div class="topic">Développement Web</div>
-                    <p>Je réalise des projets dans le cadre de mes études, tels qu’un gestionnaire de base de données de livres, où l’on peut ajouter, modifier et supprimer des livres selon nos préférences.</p>
+                    <p>Je conçois et développe des sites web et applications web complets, intégrant des bases de données et des panneaux de gestion. Mon expérience inclut la création d'un gestionnaire de base de données de livres permettant l'ajout, la modification et la suppression d'entrées. Je maîtrise les technologies front-end et back-end pour offrir des solutions web performantes et sur mesure.</p>
                 </div>
                 <div class="box">
                     <div class="icon">
-                        <i class="fa-regular fa-paintbrush-pencil fa-fade"></i>
+                        <i class="fas fa-gamepad"></i>
                     </div>
-                    <div class="topic">Création de logo</div>
-                    <p>Je propose également des services de création de logos pour débutants. Si vous recherchez un logo simple pour votre entreprise, votre marque ou votre projet personnel, n’hésitez pas à me contacter.</p>
+                    <div class="topic">Mon serveur FiveM</div>
+                    <p>En collaboration avec deux amis, je développe actuellement "Mercuria", un serveur FiveM roleplay unique. Je code mes propres ressources en LUA pour enrichir l'expérience des joueurs. Bien qu'encore en développement, ce projet me permet d'approfondir mes compétences en programmation et en gestion de communauté dans un contexte de jeu immersif.</p>
                 </div>
                 <div class="box">
                     <div class="icon">
-                        <i class="fa-regular fa-server fa-fade"></i>
+                        <i class="fas fa-network-wired"></i>
                     </div>
                     <div class="topic">Administration Réseau</div>
-                    <p>Je travaille actuellement sur la mise en place d’un réseau visant à créer un environnement sécurisé et fonctionnel, adapté aux besoins de l’entreprise ou de l’institution.</p>
+                    <p>Je travaille sur un projet de mise en place d'un réseau d'entreprise. Ce projet implique la conception et l'implémentation d'une infrastructure réseau sécurisée et évolutive. Je m'occupe de la configuration des équipements, de la gestion des protocoles de sécurité et de l'optimisation des performances pour créer un environnement réseau fiable et efficace.</p>
                 </div>
             </div>
         </div>
