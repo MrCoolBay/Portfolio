@@ -164,7 +164,9 @@
                         <i class="fas fa-desktop"></i>
                     </div>
                     <div class="topic">Développement Web</div>
-                    <p>Je conçois et développe des sites web et applications web complets, intégrant des bases de données et des panneaux de gestion. Mon expérience inclut la création d'un gestionnaire de base de données de livres permettant l'ajout, la modification et la suppression d'entrées. Je maîtrise les technologies front-end et back-end pour offrir des solutions web performantes et sur mesure.</p>
+                    <p>Je conçois et développe des sites web et applications web complets, intégrant des bases de données et des panneaux de gestion. Mon expérience inclut la création d'un gestionnaire de base de données de livres permettant l'ajout, la modification et la suppression d'entrées. Je maîtrise les technologies front-end et back-end pour offrir des solutions web performantes et sur mesure.
+                    Vous pouvez voir mes réalisations pour mon projet personnel <a href="index.php?page=realisations">ici</a>.
+                    </p>
                 </div>
                 <div class="box">
                     <div class="icon">

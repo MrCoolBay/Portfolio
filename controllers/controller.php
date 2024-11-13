@@ -12,3 +12,8 @@ function DisplayErreur()
 {
     require("views/404.php");
 }
+
+function DisplayRealisations()
+{
+    require("views/realisations.php");
+}
