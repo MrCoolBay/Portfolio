@@ -104,10 +104,10 @@ http://localhost:8000
 
 N'hésitez pas à me contacter pour toute question ou suggestion :
 
-- Portfolio : [votre-portfolio.com](https://fabienlubin.fr)
-- Email : [votre-email@domain.com](mailto:contact@fabienlubin.fr)
-- LinkedIn : [votre-linkedin](https://www.linkedin.com/in/fabien-lubin-695344291/)
-- GitHub : [@votre-username](https://github.com/MrCoolBay)
+- Portfolio : [fabienlubin.fr](https://fabienlubin.fr)
+- Email : [contact@fabienlubin.fr](mailto:contact@fabienlubin.fr)
+- LinkedIn : [Fabien Lubin](https://www.linkedin.com/in/fabien-lubin-695344291/)
+- GitHub : [@MrCoolBat](https://github.com/MrCoolBay)
 
 ## 📄 Licence
 
