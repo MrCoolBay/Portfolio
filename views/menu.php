@@ -3,11 +3,11 @@
         <a href="#"> <i class="fa-solid fa-slash-forward"></i>FabienLubin<i class="fa-solid fa-angle-right"></i></a>
     </div>
     <ul class="menu">
-        <li><a href="#home">Accueil</a></li>
-        <li class="upward"><a href="#about">À propos</a></li>
-        <li class="center"><a href="#skills">Compétences</a></li>
-        <li class="upward"><a href="#services">Projets</a></li>
-        <li class="forward"><a href="#contact">Contact</a></li>
+        <li><a href="index.php?page=home#home">Accueil</a></li>
+        <li class="upward"><a href="index.php?page=home#about">À propos</a></li>
+        <li class="center"><a href="index.php?page=home#skills">Compétences</a></li>
+        <li class="upward"><a href="index.php?page=home#services">Projets</a></li>
+        <li class="forward"><a href="index.php?page=home#contact">Contact</a></li>
         <div class="cancel-btn">
             <i class="fas fa-times"></i>
         </div>
