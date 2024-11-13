@@ -107,7 +107,7 @@ N'hésitez pas à me contacter pour toute question ou suggestion :
 - Portfolio : [fabienlubin.fr](https://fabienlubin.fr)
 - Email : [contact@fabienlubin.fr](mailto:contact@fabienlubin.fr)
 - LinkedIn : [Fabien Lubin](https://www.linkedin.com/in/fabien-lubin-695344291/)
-- GitHub : [@MrCoolBat](https://github.com/MrCoolBay)
+- GitHub : [@MrCoolBay](https://github.com/MrCoolBay)
 
 ## 📄 Licence
 
