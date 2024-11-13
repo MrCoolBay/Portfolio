@@ -49,7 +49,7 @@
                             <span>SQL</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link"><i class="fas fa-link"></i> Voir le projet</a>
+                            <a href="https://mercuriarp.fr" class="project-link"><i class="fas fa-link"></i> Voir le projet</a>
                         </div>
                     </div>
                 </div>
